@@ -14,6 +14,8 @@ cp sof-glk-es8336-ssp1.tplg sof-apl-es8336.tplg
 #echo get gpio
 #cat /sys/kernel/debug/gpio>gpio.txt
 
+cp sof-dyndbg.conf.txt /etc/modprobe.d/sof-dyndbg.conf
+
 echo allow selecting kernel from grub
 cp grub /etc/default/grub
 
