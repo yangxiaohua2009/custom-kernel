@@ -1,0 +1,83 @@
+# ACPI
+options snd_sof_acpi dyndbg=+p
+options snd_sof_acpi_intel_byt dyndbg=+p
+options snd_sof_acpi_intel_bdw dyndbg=+p
+options snd_sof_intel_byt dyndbg=+p
+options snd_sof_intel_bdw dyndbg=+p
+
+# PCI
+options snd_sof_pci dyndbg=+p
+options snd_sof_pci_intel_apl dyndbg=+p
+options snd_sof_pci_intel_cnl dyndbg=+p
+options snd_sof_pci_intel_icl dyndbg=+p
+options snd_sof_pci_intel_tgl dyndbg=+p
+
+# OF
+options snd_sof_of dyndbg=+p
+
+# DSP selection
+options snd_intel_dspcfg dyndbg=+p
+
+# SOF internals
+options snd_sof_intel_ipc dyndbg=+p
+options snd_sof_intel_hda_common dyndbg=+p
+options snd_sof_intel_hda dyndbg=+p
+options snd_sof dyndbg=+p
+options snd_sof_nocodec dyndbg=+p
+
+# SoundWire core
+options soundwire_bus dyndbg=+p
+options soundwire_generic_allocation dyndbg=+p
+options soundwire_cadence dyndbg=+p
+options soundwire_intel_init dyndbg=+p
+options soundwire_intel dyndbg=+p
+
+# SoundWire codecs
+options snd_soc_rt700 dyndbg=+p
+options snd_soc_rt5682_sdw dyndbg=+p
+options snd_soc_rt5682 dyndbg=+p
+options snd_soc_rt711 dyndbg=+p
+options snd_soc_rt1308_sdw dyndbg=+p
+options snd_soc_rt1308 dyndbg=+p
+options snd_soc_rt715 dyndbg=+p
+options snd_soc_max98373_sdw dyndbg=+p
+options snd_soc_max98373 dyndbg=+p
+options snd-soc-rt711-sdca dyndbg=+p
+options snd-soc-rt1316-sdw dyndbg=+p
+options snd-soc-rt715-sdca dyndbg=+p
+
+# test stuff
+options snd_sof_ipc_test dyndbg=+p
+options snd_sof_probes dyndbg=+p
+options snd_sof_intel_client dyndbg=+p
+options snd_sof_client dyndbg=+p
+options snd-sof-ipc-flood-test dyndbg=+p
+
+# Legacy machine drivers for APCI platforms
+options snd_soc_sst_bdw_rt5677_mach dyndbg=+p
+options snd_soc_sst_broadwell dyndbg=+p
+options snd_soc_sst_byt_cht_da7213 dyndbg=+p
+options snd_soc_sst_byt_cht_es8316 dyndbg=+p
+options snd_soc_sst_bytcr_rt5640 dyndbg=+p
+options snd_soc_sst_bytcr_rt5651 dyndbg=+p
+options snd_soc_sst_cht_bsw_max98090_ti dyndbg=+p
+options snd_soc_sst_cht_bsw_nau8824 dyndbg=+p
+options snd_soc_sst_cht_bsw_rt5645 dyndbg=+p
+options snd_soc_sst_cht_bsw_rt5672 dyndbg=+p
+
+# Machine drivers for PCI platforms
+options snd_soc_sof_rt5682 dyndbg=+p
+options snd_soc_sof_cs42l42 dyndbg=+p
+options snd_soc_sst_bxt_da7219_max98357a dyndbg=+p
+options snd_soc_sst_bxt_rt298 dyndbg=+p
+options snd_soc_sst_sof_pcm512x dyndbg=+p
+options snd_soc_sst_sof_wm8804 dyndbg=+p
+options snd_soc_sst_glk_rt5682_max98357a dyndbg=+p
+options snd_soc_cml_rt1011_rt5682 dyndbg=+p
+options snd_soc_skl_hda_dsp dyndbg=+p
+options snd_soc_sof_da7219_max98373 dyndbg=+p
+options snd_soc_ehl_rt5660 dyndbg=+p
+options snd_soc_sof_sdw dyndbg=+p
+options snd_soc_sof_essx8336 dyndbg=+p
+options snd_soc_sof_essx8336 dyndbg=+p
+options snd-soc-es8316 dyndbg=+p
