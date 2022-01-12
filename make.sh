@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo install intel firmware
-sudo dpkg -i --force-overwrite firm*.deb
+sudo dpkg -i --force-overwrite *.deb
 
 echo copy topology
 cp ./tplg/* /lib/firmware/intel/sof-tplg/
