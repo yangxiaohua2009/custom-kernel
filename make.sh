@@ -25,6 +25,6 @@ cp grub /etc/default/grub
 #cp 3.sh /lib/systemd/system-sleep/
 
 echo setting up hdmi device
-cp -r sof-essx8336 /user/share/alsa/ucm2
+cp -r sof-essx8336 /usr/share/alsa/ucm2
 sed -i '/load-module module-suspend-on-idle/d' /etc/pulse/default.pa
 
