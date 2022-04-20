@@ -15,6 +15,7 @@ Common errors:
 2. i915 errors: install lastest sof firmware from sof website
 3. wifi/display errors: compile your own kernel with the correct config in /boot/ and the lastest source code (currently 5.18). Select SND_SOC_INTEL_SOF_ES8336_MACH using menuconfig.
 4. ucm errors: if `alsaucm reload` shows errors:
+
 4.1. you are using ucm2: `sudo cp -r sof-essx8336 /usr/share/alsa/ucm2/`
 
 4.2. you are using ucm: 
