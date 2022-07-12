@@ -6,7 +6,7 @@ sudo dpkg -i --force-overwrite *.deb
 echo copy topology
 cp ./tplg/* /lib/firmware/intel/sof-tplg/
 cp /lib/firmware/intel/sof-tplg/sof-glk-es8336-ssp0.tplg /lib/firmware/intel/sof-tplg/sof-tgl-es8336-ssp0.tplg
-cp jsl.ri  /lib/firmware/intel/sof/
+cp sof-jsl.ri  /lib/firmware/intel/sof/
 #echo get dsdt
 #cat /sys/firmware/acpi/tables/DSDT > dsdt.dat
 #iasl -d dsdt.dat
